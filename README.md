@@ -8,6 +8,7 @@ A few mapping experiments looking at waste-adjacent datasets (documented in the 
 + [Medium: How to build a “scrollytelling” map](https://blog.mapbox.com/how-to-build-a-scrollytelling-map-ead6baf2cd1b)
 + [Mapbox Demo: Scrollytelling with Mapbox Example](https://demos.mapbox.com/scrollytelling/)
 + [Mapbox Docs: Fly to a location based on scroll position](https://docs.mapbox.com/mapbox-gl-js/example/scroll-fly-to/)
++ [Mapbox: Interactive Storytelling Template](https://www.mapbox.com/solutions/interactive-storytelling)
 
 
 ## Experiment: August 18, 2020 -- QGIS + Adobe Illustrator (RK)
