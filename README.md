@@ -13,7 +13,7 @@ A few mapping experiments looking at waste-adjacent datasets (documented in the 
 
 ## Experiment: August 18, 2020 -- QGIS + Adobe Illustrator (RK)
 
-A very quick map produced from NYC Open Data on food scrap drop-off sites: 
+A very quick map produced from NYC Open Data on food scrap drop-off sites:
 
 ![NYC Map of Community Districts Showing Drop-off Sites as Points](assets/drop-offs.png)
 
@@ -23,8 +23,25 @@ Easy to imagine how it may be made more interesting with added context, annotati
 
 * Add in elected officials to the geographic dataset, export as geojson
 * Add column to capture status (open / closed) to Food Scrap Drop-offs dataset (especially given new conditions post-COVID)
-* Annotate the map with relevant council members, interactive version could do this by tooltip. 
+* Annotate the map with relevant council members, interactive version could do this by tooltip.
 
 ## Experiment: August 21, 2020 -- Mapbox
 
 + [Zipcode shapefile](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u/data?no_mobile=true) -- the shape file contains population counts attributed to USPS. Does not seem accurate for all zip codes (e.g. count for 11359 noted as 0)
+
+
+## Experiment: August 25, 2020 -- Mapbox
+
+ By modifying Mapbox's Interactive Storytelling boilerplate, Mapbox studio, and NYC Open Data a basic scrollytelling infographic was created. It uses and compares NYC community district data, pre covid-19 NYC brown bin compost drop-off locations across multiple map visualizations to create a template for possible future use of this style for investigating and informing people about NYC waste.
+
+ To try the storytelling map out: clone this repo and navigate from  cg_storytelling folder to the compost_map folder. There start a localhost and give it a try!
+
+ Here are a few screenshots of the maps and accompanying text:
+
+ ![NYC Map of Community Districts with Mapbox Storytelling](assets/title.png)
+
+ ![NYC Drop-off locations with community district information](assets/drop-offs-text.png)
+
+ ![Manhattan demographic template](assets/manhattan.png)
+
+ ![3D visualization of drop off density per community district](assets/3d-compost-vis.png)
