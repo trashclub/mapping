@@ -25,3 +25,5 @@ Easy to imagine how it may be made more interesting with added context, annotati
 * Annotate the map with relevant council members, interactive version could do this by tooltip. 
 
 ## Experiment: August 21, 2020 -- Mapbox
+
++ [Zipcode shapefile](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u/data?no_mobile=true) -- the shape file contains population counts attributed to USPS. Does not seem accurate for all zip codes (e.g. count for 11359 noted as 0)
