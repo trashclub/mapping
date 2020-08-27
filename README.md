@@ -38,14 +38,14 @@ Easy to imagine how it may be made more interesting with added context, annotati
 
 ### About Geographic Data -- Conclusions & Findings:
 
-+ Most granular information is available by census block, but zip codes are more user-friendly. **ZCTA match pretty well with zipcodes** -- based on the above report by the Census Bureau. 
++ Most granular information is available by census block, but zip codes are more user-friendly. **ZCTA match pretty well with zipcodes** -- based on the above report by the Census Bureau.
 
 
 ## Experiment: August 25, 2020 -- Mapbox
 
 By modifying Mapbox's Interactive Storytelling boilerplate, Mapbox studio, and NYC Open Data a basic scrollytelling infographic was created. It uses and compares NYC community district data, pre covid-19 NYC brown bin compost drop-off locations across multiple map visualizations to create a template for possible future use of this style for investigating and informing people about NYC waste.
 
-To try the storytelling map out: clone this repo and navigate from  cg_storytelling folder to the compost_map folder. There start a localhost and give it a try!
+To try the storytelling map out: clone this repo and navigate to the cg_storytelling folder. From there start a localhost and give it a try!
 
 Here are a few screenshots of the maps and accompanying text:
 
