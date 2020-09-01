@@ -10,6 +10,9 @@ A few mapping experiments looking at waste-adjacent datasets (documented in the 
 + [Mapbox Docs: Fly to a location based on scroll position](https://docs.mapbox.com/mapbox-gl-js/example/scroll-fly-to/)
 + [Mapbox: Interactive Storytelling Template](https://www.mapbox.com/solutions/interactive-storytelling)
 
+**Research Institutions**
+
++ [Columbia Center For Spatial Research](https://c4sr.columbia.edu/tutorials)
 
 ## Experiment: August 18, 2020 -- QGIS + Adobe Illustrator (RK)
 
@@ -43,7 +46,7 @@ Here are a few screenshots of the maps and accompanying text:
 
 ## Experiment: August 27, 2020 -- QGIS, Census/ACS Data Research
 
-A non-interactive rendering of how we might layer different geographic boundaries on top of each other to highlight different layers of information. 
+A non-interactive rendering of how we might layer different geographic boundaries on top of each other to highlight different layers of information.
 
 ![Map of NYC, showing both community district and zip code boundaries](assets/zips_and_cd.png)
 
