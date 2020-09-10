@@ -85,7 +85,8 @@ This first map shows the intersection of buffers created around each brown bin d
 
 This map is the final output from the geopressing. It shows all NYC census tracts with their percentages of land area within a quarter mile of brown bin drop offs. The gradient is from white to dark purple, with dark purple indicating the most density of census tracts within the quarter mile of the drop off point.
 
-![Percentage of land area within a quarter mile of bin drops](tract-area.png)
+![Percentage of land area within a quarter mile of bin drops](assets/tract-area.png)
 
 **NOTE**
-There seemed to be a scaling error with a few of the census tract area calculations. I will update the maps with a proper legend as soon as the error is found. 
+
+There seemed to be a scaling error with a few of the census tract area calculations. I will update the maps with a proper legend as soon as the error is found.
