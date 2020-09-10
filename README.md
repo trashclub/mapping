@@ -28,7 +28,7 @@ Easy to imagine how it may be made more interesting with added context, annotati
 * Add column to capture status (open / closed) to Food Scrap Drop-offs dataset (especially given new conditions post-COVID)
 * Annotate the map with relevant council members, interactive version could do this by tooltip.
 
-## Experiment: August 25, 2020 -- Mapbox
+## Experiment: August 25, 2020 -- Mapbox (MM)
 
 By modifying Mapbox's Interactive Storytelling boilerplate, Mapbox studio, and NYC Open Data a basic scrollytelling infographic was created. It uses and compares NYC community district data, pre covid-19 NYC brown bin compost drop-off locations across multiple map visualizations to create a template for possible future use of this style for investigating and informing people about NYC waste.
 
@@ -66,3 +66,26 @@ A non-interactive rendering of how we might layer different geographic boundarie
 ### About Geographic Data -- Conclusions & Findings:
 
 + Most granular information is available by census block, but zip codes are more user-friendly. **ZCTA match pretty well with zipcodes** -- based on the above report by the Census Bureau.
+
+## Experiment: September, 9 2020 -- QGIS  (MM)
+
+Using [this](https://www.youtube.com/watch?v=f-vTthza2fQ) advanced geoprocessing tutorial as a framework,
+I created a map of the NYC census tracts with their percentages of land area within a quarter mile of brown bin drop offs.
+
+**Datasets Used:**
++ [NYC Brown Bin Drop Off Locations](https://data.cityofnewyork.us/Environment/Food-Scrap-Drop-Off-Locations-in-NYC/if26-z6xq)
++ [2010 NYC Census Tracts](https://data.cityofnewyork.us/City-Government/2010-Census-Tracts/fxpq-c8ku)
+
+**Maps**
+
+This first map shows the intersection of buffers created around each brown bin drop off and the census tracts within a quarter mile of each bin.
+
+![NYC Brown Bin drop offs with a buffered intersection between census tracts](assets/census-buffer.png)
+
+
+This map is the final output from the geopressing. It shows all NYC census tracts with their percentages of land area within a quarter mile of brown bin drop offs. The gradient is from white to dark purple, with dark purple indicating the most density of census tracts within the quarter mile of the drop off point.
+
+![Percentage of land area within a quarter mile of bin drops](tract-area.png)
+
+**NOTE**
+There seemed to be a scaling error with a few of the census tract area calculations. I will update the maps with a proper legend as soon as the error is found. 
