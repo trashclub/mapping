@@ -16,10 +16,12 @@ I will refer these items as Datasets #1 and #2 (though technically, #1 is not on
 # Data Sources
 
 ### Dataset #1
+
  + [Population Counts from 2010 Census - P1 Table (Total Population)](https://data.census.gov/cedsci/table?g=0500000US36005.100000,36047.100000,36061.100000,36081.100000,36085.100000&tid=DECENNIALSF12010.P1&hidePreview=false)
- + [Base Shapefile of Census Blocks](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.html)
+ + [Base Shapefile of 2010 Census Blocks](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2010.html):
+    + Clicking through that initial landing page will eventually lead you to [this web interface](https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2010&layergroup=Blocks) for downloading the actual census block shapefiles.
+    + You will need to download shapefiles by county. 
 
-
-### Dataset #1
+### Dataset #2
 
 # Data Cleaning + Munging
