@@ -36,13 +36,13 @@ I completed a number of cleaning and shaping operations in Jupyter Notebooks usi
 
 + **acs_to_output**:
 
-    * This is where I acquired the 2018 ACS demographic data bip zodes. As mentioned above, I had to generate the URL for accessing the zipcode data based on a list of NYC zipcodes.
+    * This is where I acquired the 2018 ACS demographic data zip zodes. As mentioned above, I had to generate the URL for accessing the zipcode data based on a list of NYC zipcodes (that list was pulled from [NY State data portal](https://data.ny.gov/Government-Finance/New-York-State-ZIP-Codes-County-FIPS-Cross-Referen/juva-r6g2)).
     * As our team is only interested in looking at race, I dropped all but the race + ethnicity columns.
     * We had also decided we were only interested in the reported percentages, given that we would get our population counts from the 2010 Census. I also dropped the columns that noted the estimates (raw numbers) reported in the original data. 
 
 + **further_cleaning_to_final**:
 
-    * In this notebook, I further clean up the columns. This time, I drop the subcategories related to race, as our final analysis would not look at racial and ethnic groups at that level of granularity. 
+    * In this notebook, I further clean up the columns. This time, I drop the subcategories related to race, as our final analysis would not look at racial and ethnic groups at that level of distinction. 
     * I also examine which zipcodes did not return data from Census.gov. Noted below:
         * 11695
         * 11112
