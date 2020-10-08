@@ -11,7 +11,7 @@ In the following sections, I will discuss the acquisition and cleaning of each o
     * Each line is a different NYC zipcode
     * Question for Will: for next steps, would it be helpful to have this as a shapefile? 
 
-I will refer these items as Datasets #1 and #2 (though technically, #1 is not one, but several files). 
+I will to refer these items as Datasets #1 and #2 (though technically, #1 is not one, but several files). 
 
 # Data Sources
 
@@ -59,6 +59,8 @@ I completed a number of cleaning and shaping operations in Jupyter Notebooks usi
 
 + **munging_census_blocks**:
 
+    * I pulled the GEOID10 into a separate column because I knew that the Census Block shapefile used GEOID10s to identify the census blocks. By doing this, I created a column that I could use to join my shapefile and this population data. 
+    * Importantly, I did not join the files in this notebook, but rather, in QGIS. 
 
 # Caveats + Outstanding Issues
 
