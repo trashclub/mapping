@@ -64,7 +64,7 @@ I completed a number of cleaning and shaping operations in Jupyter Notebooks usi
 
 # Caveats + Outstanding Issues
 
-+ Using 2010 Census data offers us granularity at the expensive of recency -- the population counts are a decade old. The advantage is that, theoretically, our project can be (relatively) easily updated when the 2020 numbers are released. 
++ Using 2010 Census data offers us granularity at the expense of recency -- the population counts are a decade old. The advantage is that, theoretically, our project can be (relatively) easily updated when the 2020 numbers are released. 
 
 # Helpful Misc
 
