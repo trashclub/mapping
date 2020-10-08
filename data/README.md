@@ -40,8 +40,23 @@ I completed a number of cleaning and shaping operations in Jupyter Notebooks usi
     * As our team is only interested in looking at race, I dropped all but the race + ethnicity columns.
     * We had also decided we were only interested in the reported percentages, given that we would get our population counts from the 2010 Census. I also dropped the columns that noted the estimates (raw numbers) reported in the original data. 
 
-
 + **further_cleaning_to_final**:
+
+    * In this notebook, I further clean up the columns. This time, I drop the subcategories related to race, as our final analysis would not look at racial and ethnic groups at that level of granularity. 
+    * I also examine which zipcodes did not return data from Census.gov. Noted below:
+        * 11695
+        * 11112
+        * 11202
+        * 11252
+        * 11431 
+        * 11111 
+        * 10045 
+        * 11439 
+        * 16091 
+        * 20459 
+        * 11629
+        * 11471
+
 + **munging_census_blocks**:
 
 
